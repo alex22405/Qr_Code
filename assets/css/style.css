@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    height: 80vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container
+{
+    display: flex;
+    height: 100%;
+}
+.box
+{
+    margin: auto;
+    width: 250px;
+    height: 380px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+.code
+{
+    padding: 5%;
+}
+.code img
+{
+    width: 100%;
+    border-radius: 5%;
+}
+p
+{
+    margin: auto;
+    padding: 3%;
+}
+.text2
+{
+    opacity: 0.5;
+    font-size: small;
+}
+.box:hover
+{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px blue;
+    transition: 0.5s;
+    transform: rotate(-0.5deg);
+}
